@@ -1,0 +1,107 @@
+@media all and (orientation: portrait) {
+    body {
+        background: #fff;
+    }
+}
+
+@media all and (orientation: landscape) {
+    body {
+        background: #fff;
+    }
+}
+
+#example {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 {
+    size: 10vmin;
+}
+
+#preheader {
+    background-color: #fe9900;
+    height: 1.45vw;
+    border-bottom: #000000 solid .4vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 6vw;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 49vw;
+    height: 6vw;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    margin: 1vw 1.3vw;
+    background-size: 15vw auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 49vw;
+    height: 6vw;
+    text-align: right;
+    margin: .5vw 2.3vw auto auto;
+    font-size: 2vw;
+    color: white;
+}
+
+hr {
+    border: none;
+    background-color: white;
+    color: white;
+    height: .2vw;
+    border-radius: .2vw;
+    text-align: right;
+    margin-left: 7vw;
+}
+
+/* link */
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bigslider {
+    background-color: #c58030;
+    height: 34vw;
+}
+#contim {
+    width: 19.7vw;
+}
+div.flex{
+    height: ;
+}
