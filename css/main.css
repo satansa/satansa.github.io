@@ -102,6 +102,26 @@ a {
 #contim {
     width: 19.7vw;
 }
-div.flex{
-    height: ;
+.flex{
+
+}
+div.welcome{
+    height: 41vw;
+    background-color: white;
+}
+div.tips{
+    background-color: #cccccc;
+    height: 30vw;
+}
+div.instfed{
+    background-color: white;
+    height: 26vw;
+}
+div.mform{
+    background-color: #8A8484;
+    height: 42vw;
+}
+footer{
+    background-color: #3B3B43;
+    height: 4vw;
 }
