@@ -373,6 +373,6 @@ var feed = new Instafeed({
     get: 'user',
     userId: '5494169560',
     tagName: 'instafeed',
-    clientId: '94edd1774c98498db9bdeae90af92ba1'
+    clientId: '548b07ef83f641d4986d066c9241f87c'
 });
 feed.run();
