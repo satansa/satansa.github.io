@@ -11,12 +11,13 @@
 }
 
 #example {
-    opacity: 0.3;
+    opacity: 0.5;
     filter: alpha(opacity=30);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: -1;
 }
 
 h1 {
@@ -37,6 +38,14 @@ h1 {
 header {
     position: relative;
     height: 6vw;
+}
+
+#headerbg{
+    z-index: -50;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #logo {
@@ -96,30 +105,65 @@ a {
 }
 
 #bigslider {
-    background-color: #c58030;
+   /* background-color: #c58030;*/
+    background-color: #cccccc;
     height: 34vw;
 }
 #contim {
     width: 19.7vw;
 }
 .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.welcome .flexy{
+    background-color: aquamarine;
+   /* border: 4px double red;*/
+    width: 30vw;
+    height: 33vw;
+    margin: 0 0.5vw;
+}
+.welcome div:first-child{
+    width: 80vw;
+    height: 5vw;
+    justify-content: space-around;
+
+}
+.tips div:first-child{
+    width: 80vw;
+    height: 5vw;
+    justify-content: space-around;
 
 }
 div.welcome{
-    height: 41vw;
-    background-color: white;
+    height: 40vw;
+    /*background-color: white;*/
+    justify-content: center;
+    padding: 1vw 0;
+    /*opacity: 0.5;*/
 }
 div.tips{
     background-color: #cccccc;
     height: 30vw;
+    justify-content: center;
+    /*opacity: 0.5;*/
+}
+.tips .flexy{
+    background-color: aquamarine;
+    /* border: 4px double red;*/
+    width: 23vw;
+    height: 23vw;
+    margin: 0 0.5vw;
 }
 div.instfed{
     background-color: white;
     height: 26vw;
+    /*opacity: 0.5;*/
 }
 div.mform{
     background-color: #8A8484;
     height: 42vw;
+    /*opacity: 0.5;*/
 }
 footer{
     background-color: #3B3B43;
