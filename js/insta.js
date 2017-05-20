@@ -371,6 +371,7 @@
 
 var feed = new Instafeed({
     get: 'user',
+    userId: '5494169560',
     tagName: 'instafeed',
     clientId: '94edd1774c98498db9bdeae90af92ba1'
 });
