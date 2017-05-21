@@ -54,8 +54,7 @@ header {
     left: 0;
     width: 49vw;
     height: 6vw;
-    background-image: url(img/logo.png);
-    background-repeat: no-repeat;
+    background: url(../img/logo.png) no-repeat;
     margin: 1vw 1.3vw;
     background-size: 15vw auto;
 }
@@ -84,23 +83,20 @@ hr {
 
 /* link */
 
-a:link {
+nav a:link,
+nav a:visited {
     color: white;
 }
 
-a:visited {
-    color: white;
-}
-
-a:hover {
+nav a:hover {
     color: whitesmoke;
 }
 
-a:active {
+nav a:active {
     color: whitesmoke;
 }
 
-a {
+nav a {
     text-decoration: none;
 }
 
@@ -142,6 +138,83 @@ div.welcome{
     padding: 1vw 0;
     /*opacity: 0.5;*/
 }
+
+
+footer{
+    background-color: #3B3B43;
+    height: 4vw;
+}
+/* instagramfeed S */
+
+div.instfed{
+   /* background-color: white;*/
+    height: 26vw;
+    /*opacity: 0.5;*/
+}
+#instafeed {
+    justify-content: space-around;
+    width: 100%;
+    margin: 1vw 6vw 5vw 6vw;
+}
+#instafeed .divi {
+    width: 12.5vw;
+}
+#instafeed .divi img {
+    border: 3px solid black;
+    width: 100%;
+}
+#instalable a {
+    color: #ce6f11;
+    text-decoration: none;
+}
+#instalable {
+    padding: 1.5vw 0 0 4.5vw;
+}
+
+/* instagramfeed F */
+
+/* form S */
+
+div.mform{
+  /*  background-color: #8A8484;*/
+    height: 42vw;
+    justify-content: flex-end;
+    /*opacity: 0.5;*/
+}
+#bigform{
+    width: 52%;
+    margin-top:2vw ;
+}
+#bigform form input{
+    height: 2.9vw;
+    width: 41vw;
+    background-color: #CCCCCC;
+    border: 0;
+    padding: 0 0 0 2vw;
+    font-weight: bold;
+}
+#bigform form input:first-of-type {
+    border-radius: 1vw 1vw 0 0 ;
+}
+#bigform form textarea {
+    border-radius: 0 0 1vw 1vw;
+    height: 14vw;
+    width: 41vw;
+    resize: none;
+    background-color: #CCCCCC;
+    padding: 0 0 0 2vw;
+}
+#bigform form label{
+    margin-left: 1.3vw;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+/* form F */
+
+/* Tips S */
+
 div.tips{
     background-color: #cccccc;
     height: 30vw;
@@ -155,17 +228,5 @@ div.tips{
     height: 23vw;
     margin: 0 0.5vw;
 }
-div.instfed{
-    background-color: white;
-    height: 26vw;
-    /*opacity: 0.5;*/
-}
-div.mform{
-    background-color: #8A8484;
-    height: 42vw;
-    /*opacity: 0.5;*/
-}
-footer{
-    background-color: #3B3B43;
-    height: 4vw;
-}
+
+/* Tips F */
