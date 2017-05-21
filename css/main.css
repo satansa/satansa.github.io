@@ -147,7 +147,7 @@ footer{
 /* instagramfeed S */
 
 div.instfed{
-   /* background-color: white;*/
+    background-color: white;
     height: 26vw;
     /*opacity: 0.5;*/
 }
@@ -176,7 +176,7 @@ div.instfed{
 /* form S */
 
 div.mform{
-  /*  background-color: #8A8484;*/
+    background-color: #8A8484;
     height: 42vw;
     justify-content: flex-end;
     /*opacity: 0.5;*/
