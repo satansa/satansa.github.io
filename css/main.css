@@ -111,33 +111,9 @@ nav a {
 .flex{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
-.welcome .flexy{
-    background-color: aquamarine;
-   /* border: 4px double red;*/
-    width: 30vw;
-    height: 33vw;
-    margin: 0 0.5vw;
-}
-.welcome div:first-child{
-    width: 80vw;
-    height: 5vw;
-    justify-content: space-around;
 
-}
-.tips div:first-child{
-    width: 80vw;
-    height: 5vw;
-    justify-content: space-around;
-
-}
-div.welcome{
-    height: 40vw;
-    /*background-color: white;*/
-    justify-content: center;
-    padding: 1vw 0;
-    /*opacity: 0.5;*/
-}
 
 
 footer{
@@ -163,7 +139,7 @@ div.instfed{
     border: 3px solid black;
     width: 100%;
 }
-#instalable a {
+#instalable a{
     color: #ce6f11;
     text-decoration: none;
 }
@@ -217,16 +193,63 @@ div.mform{
 
 div.tips{
     background-color: #cccccc;
-    height: 30vw;
+    /* height: 30vw;*/
     justify-content: center;
-    /*opacity: 0.5;*/
 }
 .tips .flexy{
     background-color: aquamarine;
     /* border: 4px double red;*/
-    width: 23vw;
-    height: 23vw;
-    margin: 0 0.5vw;
+    width: 20vw;
+    height: 20vw;
+    margin: 1vw 0.5vw;
+    overflow: hidden;
+    border: 0.5vw solid black;
+    min-width: 200px;
+    min-height: 200px;
+}
+.tips div:first-child {
+    width: 88vw;
+    height: 5vw;
+    justify-content: space-around;
+    min-height: 20px;
+    border: none;
+}
+.flexy img {
+    /*welcome too*/
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+.tips .flexy a{
+    color: #ce6f11;
+    text-decoration: none;
 }
 
 /* Tips F */
+
+/*Welcome S*/
+
+.welcome .flexy{
+    background-color: aquamarine;
+    /* border: 4px double red;*/
+    width: 30vw;
+    height: 33vw;
+    margin: 0 0.5vw;
+
+}
+.welcome div:first-child{
+    width: 80vw;
+    height: 5vw;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 2.5vw;
+}
+div.welcome{
+    height: 40vw;
+    /*background-color: white;*/
+    justify-content: center;
+    padding: 1vw 0;
+    /*opacity: 0.5;*/
+}
+
+/*Welcome F*/
