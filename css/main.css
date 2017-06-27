@@ -11,17 +11,16 @@
 }
 
 #example {
-    opacity: 0.5;
-    filter: alpha(opacity=30);
+    opacity: 0.3;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: -1;
+    z-index: 2;
 }
 
 h1 {
-    size: 10vmin;
+    font-size: 10vmin;
 }
 
 #preheader {
@@ -38,14 +37,7 @@ h1 {
 header {
     position: relative;
     height: 6vw;
-}
-
-#headerbg{
-    z-index: -50;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    z-index: 5;
 }
 
 #logo {
@@ -54,7 +46,7 @@ header {
     left: 0;
     width: 49vw;
     height: 6vw;
-    background: url(../img/logo.png) no-repeat;
+    background: url(../img/kineticlogo.svg) no-repeat;
     margin: 1vw 1.3vw;
     background-size: 15vw auto;
 }
@@ -100,13 +92,12 @@ nav a {
     text-decoration: none;
 }
 
-#bigslider {
-   /* background-color: #c58030;*/
-    background-color: #cccccc;
-    height: 34vw;
-}
 #contim {
     width: 19.7vw;
+}
+.socialbutton {
+    height: 1.5vw;
+    margin-right: 1.3vw;
 }
 .flex{
     display: flex;
@@ -124,16 +115,17 @@ footer{
 
 div.instfed{
     background-color: white;
-    height: 26vw;
+    height: 23vw;
+    margin: 3vw 3vw 0 3vw;
     /*opacity: 0.5;*/
 }
 #instafeed {
     justify-content: space-around;
     width: 100%;
-    margin: 1vw 6vw 5vw 6vw;
+    margin: 0 3.5vw 2.5vw 3.5vw;
 }
 #instafeed .divi {
-    width: 12.5vw;
+    width: 12.8vw;
 }
 #instafeed .divi img {
     border: 3px solid black;
@@ -142,9 +134,14 @@ div.instfed{
 #instalable a{
     color: #ce6f11;
     text-decoration: none;
+    margin-left: 0.4vw;
 }
 #instalable {
     padding: 1.5vw 0 0 4.5vw;
+    margin: -0.2vw 0 0 -3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    letter-spacing: 0.12vw;
 }
 
 /* instagramfeed F */
@@ -183,7 +180,7 @@ div.mform{
 #bigform form label{
     margin-left: 1.3vw;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
@@ -194,13 +191,15 @@ div.mform{
 div.tips{
     background-color: #cccccc;
     /* height: 30vw;*/
-    justify-content: center;
+    justify-content: space-around;
+    padding: 1vw;
+    padding: 1.7vw 2.1vw;
 }
 .tips .flexy{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     /* border: 4px double red;*/
     width: 20vw;
-    height: 20vw;
+    height: 17.5vw;
     margin: 1vw 0.5vw;
     overflow: hidden;
     border: 0.5vw solid black;
@@ -208,11 +207,12 @@ div.tips{
     min-height: 200px;
 }
 .tips div:first-child {
-    width: 88vw;
-    height: 5vw;
+    width: 92vw;
+    height: 2.5vw;
     justify-content: space-around;
     min-height: 20px;
     border: none;
+    font-size: 1.7vw;
 }
 .flexy img {
     /*welcome too*/
@@ -235,9 +235,12 @@ div.tips{
     width: 30vw;
     height: 33vw;
     margin: 0 0.5vw;
-
 }
-.welcome div:first-child{
+.welcome .flexy img{
+    border: #000000 solid .4vw;
+    box-sizing: border-box;
+}
+.welcome .flexy:first-child{
     width: 80vw;
     height: 5vw;
     justify-content: space-around;
@@ -251,5 +254,78 @@ div.welcome{
     padding: 1vw 0;
     /*opacity: 0.5;*/
 }
-
+.welcome .flexy div:first-child{
+    height: 18vw;
+}
+.welcome .flexy div p {
+    padding: 0 1.3vw;
+    margin: 1.3vw 0;
+    font-size: 1.5vw;
+}
 /*Welcome F*/
+/*<<insurance*/
+.insur
+{
+    background-color: black;
+}
+/*insurance>>*/
+/*header S*/
+
+/*header F*/
+
+/*slider S*/
+.mySlides{
+width: 100vw;
+}
+
+#bigslider {
+    /* background-color: #c58030;*/
+    background-color: #cccccc;
+    height: 40vw;
+    margin-top: -6vw;
+    position: relative;
+    /*z-index: -1;*/
+    overflow: hidden;
+}
+.sldnav{
+    cursor: default;
+    position: absolute;
+    top:16vw;
+    height: 6vw;
+    width: 6vw;
+    font-size: 8vw;
+    /*! border-radius:6vw; */
+    /*background-color: rgba(84,84,84,.5);*/
+    /*! padding: 1vw 4vw; */
+    /*! box-sizing: border-box; */
+}
+.sldnav img{
+    width: 100%;
+}
+.larrow{
+    left: 9vw;
+}
+.rarrow{
+    right: 9vw;
+}
+.demo{
+    display: inline-block;
+    border-radius: .75vw;
+    border: .25vw solid whitesmoke;
+    cursor: default;
+    height: 1.5vw;
+    width: 1.5vw;
+    box-sizing: border-box;
+    margin: 0 .8vw;
+}
+.demoblock{
+    position: absolute;
+    bottom: 1.8vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 13vw;
+}
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:whitesmoke!important}
+/*slider F*/
