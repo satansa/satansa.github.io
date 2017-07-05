@@ -93,11 +93,11 @@ nav a {
 }
 
 #contim {
-    width: 19.7vw;
+    justify-content: flex-end;
 }
 .socialbutton {
     height: 1.5vw;
-    margin-right: 1.3vw;
+    margin: 0 .65vw;
 }
 .flex{
     display: flex;
